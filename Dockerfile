@@ -1,2 +1,2 @@
 FROM armhf/busybox
-CMD echo Hello World!
+CMD find / 2>/dev/null | wc -l
