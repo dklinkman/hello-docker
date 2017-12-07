@@ -1,0 +1,2 @@
+FROM armhf/busybox
+CMD find / -type f -print 2>/dev/null

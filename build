@@ -1,0 +1,6 @@
+#!/bin/bash
+
+docker build -t dklinkman/hello-docker -f ./Dockerfile .
+docker build -t dklinkman/hello-docker:find -f ./Dockerfile.find .
+docker build -t dklinkman/hello-docker:wc -f ./Dockerfile.wc .
+docker build -t dklinkman/hello-docker:ash -f ./Dockerfile.ash .
